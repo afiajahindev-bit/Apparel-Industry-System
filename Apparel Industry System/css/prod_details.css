@@ -1,0 +1,177 @@
+body {
+    font-family: "Montserrat";
+  }
+  
+  /*header*/
+  #title {
+    background-color: #48575f;
+    color: #fff;
+    padding-top: 8rem;
+  
+  }
+  
+  h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  .color-section {
+    background-color: #48575f;
+    color: #fff;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  
+  /*Nav*/
+  
+  .navbar {
+    background-color: #48575f;
+    padding: 1.5rem 230px 1rem 230px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+  .nav-link:active{
+    color: #fff;
+    font-family: "Montserrat-bold";
+  }
+  .drop_a{
+    display: inline;
+}
+  /*details*/
+  #details{
+    padding: 60px;
+}
+
+.Description img{
+    width:80%;
+}
+.Description p{
+    text-align: justify;
+    margin-right: 100px;
+}
+
+.select{ 
+    background-image: radial-gradient(circle, rgb(223, 225, 225) 0%, rgb(255, 255, 255) 70%, rgb(255, 255, 255) 100%);   
+}
+
+.name{
+  font-family: "Roboto",sans-serif;
+}
+
+.size{
+  width: 50%;
+  background-color: #48575f3d;
+  font-family: "Roboto",sans-serif;
+  border: #47494989 1px solid;
+}
+
+label h4{
+  font-size: 20px;
+  font-family: "Roboto",sans-serif;
+  margin: 2% auto 1%;
+  padding: 0 15px;
+  font-weight: bold;
+}
+.btn-light{
+  border: #000000 1px solid;
+  background-color: #14455f;
+  --bs-btn-active-bg: #3d5873;
+  --bs-btn-active-color: hsl(0, 0%, 100%);
+}
+.collapse .btn{
+  border-radius: 0;
+}
+
+.fabric-label{
+    margin: 0.5%;
+    background-color: #48575f3d;
+    border: #474949 1px solid;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 1px;
+    padding: 1rem 0.5rem;
+}
+.col-leb{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.form-control:focus{
+  background-color: #48575f12;
+  
+}
+
+.form-check{
+  font-family: "Roboto",sans-serif;
+  letter-spacing: 1px;
+  margin-top: 0.3rem;
+}
+
+.form-check input{
+  border: #474949 1px solid;
+}
+input[type='radio']:checked{
+  background-color: #48575f;
+  border: #48575f 1px solid;
+}
+.btn:active{
+  background-color: #242b2e;
+  border: #000000 2px solid;
+}
+
+.custom-button{
+    margin: 5% 24%;
+    background-color: #48575f;
+    width: 50%;
+  }
+  .custom-button:hover{
+    background-color: #14455f;
+    color: #fff;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+
+
+  /*footer*/
+
+#footer{
+    background-color: #48575f;
+    color: white;
+    padding: 5% 15% 0 15%;
+    text-align: center;
+  
+  }
+  .contact{
+    text-align: left;
+  }
+  
+  .footer-anchor{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-anchor:hover{
+    text-decoration: underline;
+  }

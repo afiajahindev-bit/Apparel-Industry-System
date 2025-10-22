@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navigation*/
+
+.navbar {
+    background-color: #48575f;
+    padding: 1.5rem 230px 1rem 230px;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 15px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.nav-link:active{
+    color: #fff;
+    font-family: "Montserrat-bold";
+  }
+
+.drop-a {
+    display: inline;
+    padding-right: 0;
+    font-size: 1.2rem;
+}
+
+/*Home*/
+
+#title {
+    color: #fff;
+    padding-top: 8rem;
+    padding: 3% 15% 7%;
+}
+.info .row .col{
+    margin-bottom: 10px;
+}
+
+.col .fa-2xl {
+    font-size: 4rem;
+}
+
+.info {
+    margin: 2% 10%;
+}
+
+.card {
+    margin: 8px;
+}
+
+.card button {
+    padding: 6px 0 0;
+    width: 100%;
+}
+
+.card .card-body {
+    min-height: 140px;
+    padding: 24px;
+}
+
+.card .card-body .row {
+    align-items: center;
+}
+
+/* Customer */
+
+.cust_list {
+    margin: 5% 15%;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1rem;
+}
+
+/* Fabric/print list */
+
+.collection {
+    text-align: center;
+}
+
+.custom-button {
+    color: #fff;
+    margin: 1% 2%;
+    padding: 0.5% 3%;
+    background-color: #48575f;
+    border-radius: 0;
+}
+
+.custom-button:hover {
+    background-color: #14455f;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 795px) {
+    .new .d-flex .custom-button {
+        width: 100%;
+    }
+    .collection .col {
+        justify-content: center !important;
+    }
+}
+.form {
+    width: 75%;
+    border: 1px solid;
+    padding: 3%;
+    margin: auto;
+    text-align: left;
+}
+
+.form div .row .col-md-4 {
+    width: 20%;
+}
+
+/* Fabric/print update */
+#details {
+    padding: 60px;
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid;
+    border: rgba(58, 62, 68, 0.5) 1px solid;
+}
+.form-control:focus{
+  background-color: #48575f20;
+  
+}
+/* order list */
+.order_list {
+    margin: 3%;
+}
+.order_list .table{
+    font-size: 14px;
+}
+
+/* order details */
+
+  .box{
+    margin: auto;
+    width: 85%;
+  }
+
+  #cart h3{
+    font-family: "Roboto",sans-serif;
+    height: 40px;
+    margin-bottom: 2%;
+  }
+
+  hr{
+    height: 1.5rem;
+    width: 90%;
+}
+.box .card .card-body .row {
+    align-items:flex-start;
+}
+.card{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #48575f;
+    color: white;
+    padding: 5% 15% 0 15%;
+    text-align: center;
+
+}
+
+.contact {
+    text-align: left;
+}
+
+.footer-anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-anchor:hover {
+    text-decoration: underline;
+}

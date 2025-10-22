@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #48575f 60%, #425057 40.1%);
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#title{
+    color: #fff;
+    text-align: center;
+}
+.container-fluid{
+    text-align: center;
+    padding: 1%;
+
+}
+
+.center{
+    margin: auto;
+    background: #fff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.219);
+    margin-bottom: 5px;
+    width: 600px;
+}
+.center h2{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid silver;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #adadad;
+    transform: translateY(-75%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background:  #266180;
+    transition: .5s;
+}
+.txt_field input:focus ~ label, .txt_field input:valid ~ label{
+    top: -5px;
+    color:  #266180;
+}
+
+.txt_field input:focus ~ span::before, .txt_field input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    margin: 2% 25% ;
+    width: 50%;
+    height: 35px;
+    border: 1px solid;
+    background:  #48575f ;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #14455f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signup_link{
+    margin: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup_link a{
+    color: #14455f;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }

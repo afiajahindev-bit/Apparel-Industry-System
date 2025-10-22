@@ -1,0 +1,155 @@
+body {
+    font-family: "Montserrat";
+  }
+  
+  /*header*/
+  #title {
+    background-color: #48575f;
+    color: #fff;
+    padding-top: 8rem;
+  
+  }
+  
+  h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  .color-section {
+    background-color: #48575f;
+    color: #fff;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  .title-image {
+    width: 70%;
+  }
+  
+  /*Nav*/
+  
+  .navbar {
+    background-color: #48575f;
+    padding: 1.5rem 230px 1rem 230px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+    
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+  .nav-link:active{
+    color: #fff;
+    font-family: "Montserrat-bold";
+  }
+
+  .drop-a{
+    display: inline;
+    padding-right: 0;
+  }
+
+  /*cart*/
+
+  .form-check .form-check-input {
+    position: relative;
+    margin: auto;
+    top: 140px;
+}
+
+.form-check input{
+  border: #7b8181 1px solid;
+}
+
+input[type='checkbox']:checked{
+  background-color: #48575f;
+  border: #48575f 1px solid;
+}
+input[type='checkbox']{
+  visibility: hidden;
+}
+
+  .none{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  #cart{
+    background: #eee;
+  }
+
+  .box{
+    margin: auto;
+    padding: 5% 0;
+    width: 70%;
+  }
+
+  #cart h2{
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    height: 40px;
+    margin-bottom: 2%;
+  }
+
+  hr{
+    height: 1.5rem;
+    margin: auto;
+    width: 90%;
+}
+.card{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.custom-button{
+  margin: 3% 24%;
+  background-color: #48575f;
+  width: 50%;
+}
+.custom-button:hover{
+  background-color: #14455f;
+  color: #fff;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+  /*footer*/
+
+  #footer{
+    background-color: #48575f;
+    color: white;
+    padding: 5% 15% 0 15%;
+    text-align: center;
+  
+  }
+  .contact{
+    text-align: left;
+  }
+  
+  .footer-anchor{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-anchor:hover{
+    text-decoration: underline;
+  }
